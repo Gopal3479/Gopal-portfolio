@@ -23,7 +23,7 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
-            Full Stack Software Engineer specializing in{' '}
+            Associate Software Engineer specializing in{' '}
             <span className="text-blue-600 font-semibold">Machine Learning</span>,{' '}
             <span className="text-purple-600 font-semibold">Cloud Computing</span>, and{' '}
             <span className="text-green-600 font-semibold">Web Development</span>

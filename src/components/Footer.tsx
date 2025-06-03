@@ -11,7 +11,7 @@ const Footer = () => {
           </div>
           
           <p className="text-gray-400 mb-6 max-w-md mx-auto">
-            Full Stack Software Engineer passionate about creating innovative solutions 
+            Associate Software Engineer passionate about creating innovative solutions 
             with AI and cloud technologies.
           </p>
           

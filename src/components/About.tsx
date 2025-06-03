@@ -1,4 +1,3 @@
-
 import { Award, Code, User, MapPin, Calendar, Heart, Target, BookOpen } from 'lucide-react';
 import { Card } from '@/components/ui/card';
 
@@ -28,7 +27,7 @@ const About = () => {
           </h2>
           <div className="w-24 h-1 bg-blue-600 mx-auto mb-8"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Passionate software engineer crafting innovative solutions at the intersection of 
+            Associate software engineer crafting innovative solutions at the intersection of 
             <span className="font-semibold text-blue-600"> AI and cloud computing</span>
           </p>
         </div>
@@ -58,7 +57,7 @@ const About = () => {
               <div className="space-y-6 text-gray-600 leading-relaxed">
                 <p>
                   Based in the vibrant tech hub of <span className="font-semibold text-gray-800">Bengaluru, India</span>, 
-                  I bring nearly two years of hands-on experience in full-stack development and machine learning. 
+                  I bring nearly two years of hands-on experience in software development and machine learning. 
                   My journey began with a Bachelor of Engineering in Computer Science from Dayananda Sagar University.
                 </p>
                 
@@ -108,7 +107,7 @@ const About = () => {
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-2">Technical Excellence</h3>
                     <p className="text-gray-600">
-                      Specialized in full-stack development with expertise in modern frameworks, 
+                      Specialized in software development with expertise in modern frameworks, 
                       cloud technologies, and cutting-edge machine learning algorithms.
                     </p>
                   </div>
