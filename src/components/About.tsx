@@ -6,7 +6,7 @@ const About = () => {
     { icon: Calendar, title: "2+ Years", subtitle: "Professional Experience", color: "blue" },
     { icon: MapPin, title: "Bengaluru", subtitle: "Based in Tech Hub", color: "green" },
     { icon: BookOpen, title: "B.E. CSE", subtitle: "Dayananda Sagar University", color: "purple" },
-    { icon: Target, title: "AI & Cloud", subtitle: "Specialization Focus", color: "orange" }
+    { icon: Target, title: "AI & ML", subtitle: "Specialization Focus", color: "orange" }
   ];
 
   const interests = [

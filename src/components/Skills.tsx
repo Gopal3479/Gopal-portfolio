@@ -98,13 +98,31 @@ const Skills = () => {
           <h3 className="text-2xl font-semibold text-gray-900 mb-8">Certifications</h3>
           <div className="grid md:grid-cols-3 gap-6">
             {[
-              "Machine Learning (Stanford University - Andrew Ng)",
-              "Programming for Everybody: Getting Started with Python (University of Michigan)",
-              "Learn to Code in Python 3: Programming Beginner to Advanced"
+              {
+                name: "Machine Learning (Stanford University - Andrew Ng)",
+                link: "https://www.coursera.org/learn/machine-learning"
+              },
+              {
+                name: "Programming for Everybody: Getting Started with Python (University of Michigan)",
+                link: "https://www.coursera.org/learn/python"
+              },
+              {
+                name: "Learn to Code in Python 3: Programming Beginner to Advanced",
+                link: "https://www.udemy.com/course/learn-to-code-in-python-3/"
+              }
             ].map((cert, index) => (
               <Card key={index} className="p-4 bg-white border hover:shadow-md transition-shadow duration-300">
-                <p className="text-gray-700 text-sm font-medium">{cert}</p>
-                <div className="mt-2 text-xs text-blue-600 font-semibold">Coursera</div>
+                <a
+                  href={cert.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-700 text-sm font-medium hover:underline"
+                >
+                  {cert.name}
+                </a>
+                <div className="mt-2 text-xs text-blue-600 font-semibold">
+                  {cert.link.includes("coursera.org") ? "Coursera" : "Udemy"}
+                </div>
               </Card>
             ))}
           </div>

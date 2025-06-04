@@ -5,9 +5,11 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="text-center">
           <div className="mb-4">
-            <h3 className="text-2xl font-bold">
-              Gopal<span className="text-blue-400">.</span>
-            </h3>
+            <img
+              src="/images/logo.png"
+              alt="Gopal Reddy K A Logo"
+              className="mx-auto h-12 w-auto"
+            />
           </div>
           
           <p className="text-gray-400 mb-6 max-w-md mx-auto">

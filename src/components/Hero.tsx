@@ -19,14 +19,14 @@ const Hero = () => {
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6">
-            Gopal Reddy<span className="text-blue-600">.</span>
+            Gopal Reddy
           </h1>
           
           <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
             Associate Software Engineer specializing in{' '}
             <span className="text-blue-600 font-semibold">Machine Learning</span>,{' '}
-            <span className="text-purple-600 font-semibold">Cloud Computing</span>, and{' '}
-            <span className="text-green-600 font-semibold">Web Development</span>
+            <span className="text-purple-600 font-semibold">Generative AI</span>, and{' '}
+            <span className="text-green-600 font-semibold">Microsoft Azure</span>
           </p>
           
           <p className="text-lg text-gray-500 mb-12 max-w-2xl mx-auto">
@@ -58,7 +58,7 @@ const Hero = () => {
               <Mail className="w-6 h-6 text-gray-700" />
             </a>
             <a 
-              href="https://github.com"
+              href="https://github.com/Gopal3479?tab=overview&from=2025-01-01&to=2025-01-31"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 bg-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-110"
@@ -66,7 +66,7 @@ const Hero = () => {
               <Github className="w-6 h-6 text-gray-700" />
             </a>
             <a 
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/gopal-reddy-k-a-94039b369/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 bg-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-110"
